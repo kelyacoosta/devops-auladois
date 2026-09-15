@@ -7,3 +7,5 @@ jobs:
         steps:
             - name: Report triggering event
               run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
+            - name: Data da execução
+              run: echo "14/09/2026."
